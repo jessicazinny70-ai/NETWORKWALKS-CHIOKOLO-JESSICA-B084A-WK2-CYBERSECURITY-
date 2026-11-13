@@ -72,7 +72,7 @@ Google Dorking uses advanced Google search operators to locate information index
 | No. | Link | Relevant Dork | Username/Password (if any) |
 |---|---|---|---|
 | 1 | https://www.lmc.edu/webcam.htm | `intitle:"Webcam" inurl:WebCam.htm` | Not provided |
-| 2 | [Insert finding] | [Insert dork] | [Insert result] |
+| 2 | https://ranch-turini.com/webcam/ | `intitle:"Index of /webcam/"` | Not provided |
 | 3 | [Insert finding] | [Insert dork] | [Insert result] |
 | 4 | [Insert finding] | [Insert dork] | [Insert result] |
 | 5 | [Insert finding] | [Insert dork] | [Insert result] |
