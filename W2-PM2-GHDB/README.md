@@ -78,7 +78,7 @@ Google Dorking uses advanced Google search operators to locate information index
 | 4 | https://www.insecam.org/en/bytype/webcamxp/ | [`intitle:"webcamXP" inurl:8080`](https://www.exploit-db.com/ghdb/7697) | Public listing; credentials not provided |
 | 5 | [Webcams in Genemuiden](http://bremannet2.dyndns.tv:51030/multi.html) | `intitle:"Index of" "DCIM/camera"` | Not displayed / Not required |
 | 6 | `http://75.149.26.30:1024/mobile.html` | `intitle:"webcamXP" inurl:8080` | Not displayed |
-| 7 | [Insert finding] | [Insert dork] | [Insert result] |
+| 7 | http://webcam.turboprop.com | [Enter the Google dork used] | Not provided |
 | 8 | [Insert finding] | [Insert dork] | [Insert result] |
 | 9 | [Insert finding] | [Insert dork] | [Insert result] |
 | 10 | [Insert finding] | [Insert dork] | [Insert result] |
