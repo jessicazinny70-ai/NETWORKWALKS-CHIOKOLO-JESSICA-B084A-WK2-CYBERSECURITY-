@@ -69,6 +69,7 @@ Google Dorking uses advanced Google search operators to locate information index
 
 **Objective:** The GHDB searches returned different publicly accessible camera-related pages. Some results displayed live camera images, while others showed camera login pages or directory listings. The results demonstrate how Google Dorks can identify information indexed by search engines.
 Another result identified a publicly accessible panoramic webcam page for Table Mountain in South Africa. It displayed a panoramic view with location labels and viewing controls. No username or password was displayed.
+The search identified a publicly published camera page on CameraFTP named “SRSA - BASE CAM.” The page displayed a live outdoor view of a snow-covered recreational area. The camera was accessible without a visible login prompt, and no username or password was displayed. This demonstrates how search engines can index publicly published camera pages.
 
 
 | No. | Link | Relevant Dork | Username/Password (if any) |
@@ -81,7 +82,7 @@ Another result identified a publicly accessible panoramic webcam page for Table 
 | 6 | `http://75.149.26.30:1024/mobile.html` | `intitle:"webcamXP" inurl:8080` | Not displayed |
 | 7 | http://webcam.turboprop.com | [Enter the Google dork used] | Not provided |
 | 8 | https://tablemountain.panomax.com | [Enter the Google dork used] | Not provided |
-| 9 | [Insert finding] | [Insert dork] | [Insert result] |
+| 9 | https://camerаftp.com/cameraftp/publish/Camera.aspx/parentID224864296/sharedID13751043/modelive/nameBASE%20WEBCAM | [Enter the Google dork you used] | Not displayed |
 | 10 | [Insert finding] | [Insert dork] | [Insert result] |
 
 ### 4.1.3 Task 2: Mathematics PDF Directory
