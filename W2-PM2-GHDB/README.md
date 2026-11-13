@@ -67,7 +67,8 @@ Google Dorking uses advanced Google search operators to locate information index
 
 ### 4.1.2 Task 1: Camera Footprinting
 
-**Objective:** Document 10 findings from the camera-related GHDB exercise using instructor-approved demonstration targets.
+**Objective:** The GHDB searches returned different publicly accessible camera-related pages. Some results displayed live camera images, while others showed camera login pages or directory listings. The results demonstrate how Google Dorks can identify information indexed by search engines.
+
 
 | No. | Link | Relevant Dork | Username/Password (if any) |
 |---|---|---|---|
