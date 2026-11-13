@@ -74,7 +74,7 @@ Google Dorking uses advanced Google search operators to locate information index
 | 1 | https://www.lmc.edu/webcam.htm | `intitle:"Webcam" inurl:WebCam.htm` | Not provided |
 | 2 | https://ranch-turini.com/webcam/ | `intitle:"Index of /webcam/"` | Not provided |
 | 3 | https://www.skylinewebcams.com/ | `inurl:webcam site:skylinewebcams.com inurl:roma` | Not required |
-| 4 | [Insert finding] | [Insert dork] | [Insert result] |
+| 4 | https://www.insecam.org/en/bytype/webcamxp/ | [`intitle:"webcamXP" inurl:8080`](https://www.exploit-db.com/ghdb/7697) | Public listing; credentials not provided |
 | 5 | [Insert finding] | [Insert dork] | [Insert result] |
 | 6 | [Insert finding] | [Insert dork] | [Insert result] |
 | 7 | [Insert finding] | [Insert dork] | [Insert result] |
