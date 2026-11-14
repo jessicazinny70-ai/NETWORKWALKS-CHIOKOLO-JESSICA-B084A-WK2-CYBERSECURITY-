@@ -92,20 +92,27 @@ Another result displayed a SupervisionCam Protocol page named “Configuration1.
 
 | No. | Link | Relevant Dork | Username/Password (if any) |
 |---|---|---|---|
-| 1 | [Insert PDF link] | [Insert dork] | [Insert result] |
-| 2 | [Insert PDF link] | [Insert dork] | [Insert result] |
-| 3 | [Insert PDF link] | [Insert dork] | [Insert result] |
-| 4 | [Insert PDF link] | [Insert dork] | [Insert result] |
-| 5 | [Insert PDF link] | [Insert dork] | [Insert result] |
-| 6 | [Insert PDF link] | [Insert dork] | [Insert result] |
-| 7 | [Insert PDF link] | [Insert dork] | [Insert result] |
-| 8 | [Insert PDF link] | [Insert dork] | [Insert result] |
-| 9 | [Insert PDF link] | [Insert dork] | [Insert result] |
-| 10 | [Insert PDF link] | [Insert dork] | [Insert result] |
+|
+| No. | Link | Relevant Dork Used |
+|---|---|---|
+| 1 | https://erewhon.superkuh.com/library/Math/ | `intitle:index.of "parent directory" mathematics pdf` |
+| 2 | https://pegaso.changeip.org/DOCS-TECH/Math/ | `intitle:"index of" "DOCS-TECH" Math` |
+| 3 | https://discrete.openmathbooks.org/pdfs/ | `intitle:"index of" discrete mathematics pdf` |
+| 4 | https://netlib.org/math/docpdf/ | `intitle:"index of" math docpdf` |
+| 5 | https://openstax.org/subjects/math | `intitle:"OpenStax" mathematics textbook PDF` |
+| 6 | https://math.libretexts.org/ | `intitle:"LibreTexts Mathematics" textbook PDF` |
+| 7 | https://open.umn.edu/opentextbooks/subjects/mathematics | `intitle:"Open Textbook Library" mathematics PDF` |
+| 8 | https://ocw.mit.edu/courses/mathematics/ | `site:ocw.mit.edu mathematics filetype:pdf` |
+| 9 | https://www.ams.org/amsmtgs/ | `site:ams.org mathematics notes filetype:pdf` |
+| 10 | https://opentext.uleth.ca/courses.html | `site:opentext.uleth.ca mathematics textbooks` | Open Mathematics Textbooks |
 
 ### 4.1.4 Observation
 
-[Write what you observed during the GHDB exercise.]
+The GHDB search exercise identified ten websites related to mathematics textbooks, learning materials, and PDF resources. All ten links were opened and reviewed to check their accessibility and relevance to the search.
+
+The results included mathematics resource directories, open educational textbook platforms, university course materials, and mathematics learning resources. Some websites provided access to open textbooks and course materials, while others served as directories or resource pages.
+
+This exercise demonstrated how Google search operators can help identify publicly accessible mathematics resources across different websites. It also showed the importance of opening and reviewing search results to confirm their relevance instead of relying only on search titles.
 
 ### 4.1.5 Evidence
 
