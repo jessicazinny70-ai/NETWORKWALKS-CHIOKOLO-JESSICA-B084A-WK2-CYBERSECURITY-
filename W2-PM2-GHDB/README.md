@@ -1,7 +1,9 @@
 
 # 📋 PENETRATION TESTING REPORT
 
-## Google Dorking, Maltego & Network Scanning Phases
+## Google Dorking, theHarvester & Network Scanning Phases
+
+### W2-PM-FINAL | CYBERSECURITY | NETWORKWALKS
 
 ### W2-PM-FINAL | CYBERSECURITY | NETWORKWALKS
 
@@ -9,10 +11,10 @@
 |---|---|
 | Pentester Name (Cybersecurity Professional) | Jessica Chiokolo |
 | Program/Batch | B084 - Networkwalks |
-| Date | 13 November 2026 |
-| Modules Completed | W2-PM2 (Google Dorking) |
-| | W2-PM3 (Maltego) |
-| | W2-PM5 (Zenmap Scanning) |
+| Date | 14 November 2026 |
+| Modules Completed | W2-PM2 (GHDB - Google Dorking) |
+|  | W2-PM4 (theHarvester) |
+|  | W2-PM5 (Zenmap Network Scanning) |
 | Client/Target | Authorized educational exercises and approved lab targets |
 
 ---
@@ -31,27 +33,27 @@ The findings documented in this report are intended for educational and security
 
 ## 2.1 Project Overview
 
-This project covers three cybersecurity practical modules: Google Hacking Database (GHDB) footprinting, Maltego-based footprinting and Zenmap network scanning.
+This project covers three cybersecurity practical modules: Google Hacking Database (GHDB) footprinting, theHarvester-based footprinting and Zenmap network scanning.
 
-The purpose of the project is to develop practical knowledge of information gathering, open-source intelligence (OSINT), relationship mapping and network discovery.
+The purpose of the project is to develop practical knowledge of information gathering, open-source intelligence (OSINT), reconnaissance and network discovery.
 
 ## 2.2 Project Objectives
 
 - Understand Google Dorking and its applications.
 - Identify publicly indexed information using GHDB.
-- Perform footprinting and relationship mapping with Maltego.
+- Perform passive reconnaissance using theHarvester.
 - Discover hosts and examine network information using Zenmap.
 - Document observations and security recommendations.
 
 ---
 
-# 3. TOOLS USED
+## 3. TOOLS USED
 
 | No. | Tool | Purpose |
 |---|---|---|
 | 1 | Google Search | Advanced search and information gathering |
 | 2 | Google Hacking Database (GHDB) | Finding Google Dorks |
-| 3 | Maltego | OSINT and relationship mapping |
+| 3 | theHarvester | Passive reconnaissance and collection of publicly available domain information |
 | 4 | Zenmap | Network scanning and host discovery |
 | 5 | Nmap | Network scanning engine |
 
@@ -122,51 +124,74 @@ This exercise demonstrated how Google search operators can help identify publicl
 
 ---
 
-## 4.2 W2-PM3: MALTEGO-BASED FOOTPRINTING
+
+## 4.2 W2-PM4: THEHARVESTER-BASED FOOTPRINTING ATTACKS
 
 ### 4.2.1 Introduction
 
-Maltego is an OSINT tool used to gather and visualize information and relationships between different entities.
+theHarvester is an open-source reconnaissance tool used to gather publicly available information about a target domain. It helps security researchers identify information such as email addresses, subdomains, hostnames and IP addresses from supported public data sources.
+
+This exercise focuses on passive information gathering and understanding how publicly available information can reveal an organization's digital footprint.
 
 ### 4.2.2 Objective
 
-To use Maltego to perform footprinting and understand how information about a selected authorized target can be collected and visualized.
+The objective of this exercise is to use theHarvester to collect publicly available information about an authorized target domain, identify discovered email addresses, subdomains and host information, and understand the importance of reconnaissance in cybersecurity.
 
 ### 4.2.3 Tools Used
 
-- Maltego
+- Kali Linux
+- theHarvester
+- Terminal
 - Internet connection
-- Authorized target/domain: [Insert target]
+- Authorized target domain: [Insert target domain]
 
 ### 4.2.4 Activities Performed
 
-**Step 1:** [Describe first activity.]
+**Step 1: Open the Kali Linux terminal**
 
-**Step 2:** [Describe second activity.]
+I opened the terminal in Kali Linux to prepare the environment for the reconnaissance exercise.
 
-**Step 3:** [Describe third activity.]
+**Step 2: Check theHarvester availability**
 
-**Step 4:** [Describe fourth activity.]
+I checked whether theHarvester was installed and available in the Kali Linux environment.
+
+**Step 3: Identify the target domain**
+
+I selected the authorized target domain for the footprinting exercise.
+
+**Step 4: Perform reconnaissance**
+
+I used theHarvester to search supported public sources for information associated with the target domain.
+
+**Step 5: Review the collected information**
+
+I examined the results to identify publicly available email addresses, subdomains, hostnames and IP addresses.
 
 ### 4.2.5 Findings
 
-| No. | Entity / Information | Result Obtained | Observation |
-|---|---|---|---|
-| 1 | [Insert entity] | [Insert result] | [Insert observation] |
-| 2 | [Insert entity] | [Insert result] | [Insert observation] |
-| 3 | [Insert entity] | [Insert result] | [Insert observation] |
-| 4 | [Insert entity] | [Insert result] | [Insert observation] |
-| 5 | [Insert entity] | [Insert result] | [Insert observation] |
+| No. | Information Collected | Result |
+|---|---|---|
+| 1 | Target domain | [Insert actual target] |
+| 2 | Email addresses discovered | [Insert actual result] |
+| 3 | Subdomains discovered | [Insert actual result] |
+| 4 | Hostnames discovered | [Insert actual result] |
+| 5 | IP addresses discovered | [Insert actual result] |
+| 6 | Data sources used | [Insert actual sources] |
 
 ### 4.2.6 Evidence
 
-![Maltego Graph](images/maltego-graph.png)
+[Insert screenshot showing the theHarvester command and its output.]
 
-![Maltego Results](images/maltego-results.png)
+[Insert screenshot showing the collected reconnaissance results.]
 
 ### 4.2.7 Observation
 
-[Write what you learned and observed from the Maltego exercise.]
+The exercise demonstrated how theHarvester can gather publicly available information associated with a domain. The results helped me understand how email addresses, subdomains, hostnames and IP addresses can contribute to an organization's digital footprint.
+
+I also learned that publicly available information can be useful during security assessments because it helps security professionals understand what information about an organization may be visible to outsiders.
+
+All reconnaissance activities were limited to the authorized educational exercise.
+
 
 ---
 
@@ -302,9 +327,9 @@ The following evidence will be included to demonstrate the activities performed:
 
 # 7. CONCLUSION
 
-The Week 2 cybersecurity project provided practical experience in Google Dorking, OSINT footprinting using Maltego and network scanning using Zenmap.
+The Week 2 cybersecurity project provided practical experience in Google Dorking, passive reconnaissance using theHarvester and network scanning using Zenmap.
 
-The exercises improved my understanding of information gathering, digital footprint analysis, relationship mapping and network discovery.
+The exercises improved my understanding of information gathering, digital footprint analysis, passive reconnaissance and network discovery.
 
 ---
 
@@ -317,8 +342,8 @@ The following evidence will be included to demonstrate the activities performed 
 | 1 | GHDB search results | W2-PM2 |
 | 2 | Camera footprinting findings | W2-PM2 |
 | 3 | Mathematics PDF findings | W2-PM2 |
-| 4 | Maltego graph | W2-PM3 |
-| 5 | Maltego results | W2-PM3 |
+| 4 | theHarvester command and output screenshot | W2-PM4 |
+| 5 | theHarvester reconnaissance results | W2-PM4 |
 | 6 | Windows network configuration | W2-PM5 |
 | 7 | Zenmap scan results | W2-PM5 |
 | 8 | Zenmap network topology | W2-PM5 |
